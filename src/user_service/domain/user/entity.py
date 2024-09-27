@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from src.profile.domain.common.entities import CommonEntity
-from src.profile.domain.user.value_objects import (
+from src.user_service.domain.common.entities import CommonEntity
+from src.user_service.domain.user.value_objects import (
     UserAge, UserCity, UserCountry, UserName, UserPassword, UserPhone, UserUUID
 )
 

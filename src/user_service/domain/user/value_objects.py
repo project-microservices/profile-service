@@ -1,7 +1,7 @@
 from typing import Self
 
-from src.profile.domain.common.value_objects import DomainValueObject
-from src.profile.domain.common.exceptions import ValidationError
+from src.user_service.domain.common.value_objects import DomainValueObject
+from src.user_service.domain.common.exceptions import ValidationError
 
 
 class UserUUID(DomainValueObject[str]):
